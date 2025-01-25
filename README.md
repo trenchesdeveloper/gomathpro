@@ -65,5 +65,8 @@ Here’s a preview of the **Supported Features** table:
 | **Maximum**           | `max(5, 10)`           | Maximum of two numbers (`max(5, 10)` = 10).                                 |
 | **Variables**         | `A = 5; A + 3`         | Assign variables and use them in expressions.                               |
 | **Multiple Statements**| `A = 5; B = 7; A + B`  | Evaluate multiple statements separated by semicolons.                       |
+| **Polynomial Roots**  | `polynomial roots "x^2 - 3x + 2"` | Find the roots of a polynomial.                                           |
+| **Polynomial Factorization** | `polynomial factorize "x^2 - 3x + 2"` | Factorize a polynomial into irreducible factors.                     |
+| **Polynomial Interpolation** | `polynomial interpolate 1 2 3 4` | Interpolate a polynomial given a set of points.
 
 ---
